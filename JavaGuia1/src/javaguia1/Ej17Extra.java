@@ -25,13 +25,10 @@ public class Ej17Extra {
     }
 
     public static boolean esPrimo(float n) {
-        int cont=0;
-        for(int i=1;i<=n;i++){
-            //System.out.println(n/i);
-            if(n%i==0){
-                cont++;
-            }
-        }
-        return cont==2;
+        int i=2;
+        while(n%i!=0){
+            i++;
+        }        
+        return i >= n;
     }
 }
