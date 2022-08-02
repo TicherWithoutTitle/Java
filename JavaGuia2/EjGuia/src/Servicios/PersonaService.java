@@ -34,7 +34,12 @@ public class PersonaService {
         System.out.println("edad: "+nuevaPersona.getEdad());
         System.out.println("domicilio: "+nuevaPersona.getDomicilio());
         System.out.println("nacionalidad: "+nuevaPersona.getNacionalidad());
+        System.out.println("FIN VER PERSONA");
         
     }
+    /*public void crearLista(String nombre,int n){
+        Persona nombre[]=new Persona[n];
+        return listaPersonas;
+    }*/
     
 }
